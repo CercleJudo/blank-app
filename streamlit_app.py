@@ -1,4 +1,3 @@
-import streamlit_app as st
 import random
 
 # ==========================================
