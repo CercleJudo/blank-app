@@ -1,4 +1,5 @@
 import random
+import streamlit as st
 
 # ==========================================
 # BASE DE DONNÉES DES 140 QUESTIONS DU QUIZ
