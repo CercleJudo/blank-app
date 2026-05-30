@@ -189,9 +189,9 @@ if not st.session_state.quiz_started:
     st.subheader("Configuration de votre test")
     
     target_belt = st.selectbox("Sélectionnez la ceinture que vous préparez :", BELT_ORDER)
-    num_q = st.slider("Nombre de questions pour le quiz :", min_value=5, max_value=30, value=10, step=5)
+    num_q = st.slider("Nombre de questions pour le quiz :", min_value=5, max_value=20, value=10, step=5)
     
-    if st.button("🥋 Commencer le Hajime !", type="primary"):
+    if st.button("🥋 Hajime !", type="primary"):
         pool_questions = []
         for belt in BELT_ORDER:
             pool_questions.extend(QUIZ_DATA[belt])
